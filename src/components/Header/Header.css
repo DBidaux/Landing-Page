@@ -1,0 +1,49 @@
+/* Header.css */
+.header {
+    background-color: #f4f4f4;
+    padding-top: 15px;
+    padding-left: 22px;
+    padding-right: 22px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .header button {
+    background-color: transparent;
+    border: 2px solid #1a1a1a;
+    color: #1a1a1a;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .header button:hover {
+    background-color: #1a1a1a;
+    color: #f4f4f4;
+  }
+  
+  /* Estilos para modo oscuro */
+  body.dark-theme .header {
+    background-color: #1a1a1a;
+    color: #f4f4f4;
+  }
+  
+  body.dark-theme .header button {
+    border-color: #f4f4f4;
+    color: #f4f4f4;
+  }
+  
+  body.dark-theme .header button:hover {
+    background-color: #f4f4f4;
+    color: #222;
+  }
+  

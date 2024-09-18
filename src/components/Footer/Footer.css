@@ -1,0 +1,17 @@
+/* Footer.css */
+/* Footer.css */
+.footer {
+  background-color: #1a1a1a; /* Fondo blanco para modo claro */
+  color: #f4f4f4; /* Texto oscuro por defecto */
+  text-align: center;
+  padding: 10px 0;
+  bottom: 0;
+  width: 100%;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Modo oscuro */
+body.dark-theme .footer {
+  background-color: #f4f4f4; /* Fondo gris oscuro */
+  color: #1a1a1a; /* Texto claro */
+}

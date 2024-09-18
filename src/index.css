@@ -5,9 +5,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+  background-color: #f4f4f4; /* Fondo blanco para modo claro */
+  color: #1a1a1a; /* Texto oscuro para modo claro */
+  transition: background-color 0.3s, color 0.3s;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+body.dark-theme {
+  background-color: #1a1a1a; /* Fondo gris oscuro para modo oscuro */
+  color: #f4f4f4; /* Texto claro para modo oscuro */
 }

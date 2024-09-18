@@ -1,0 +1,36 @@
+.skills-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+  color: #1a1a1a;
+}
+body.dark-theme .skills-container {
+  background-color: #555555;
+  color: #f4f4f4;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  padding: 20px 0;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill-item p {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+/* Estilos para asegurar que los SVG se muestren correctamente */
+.skill-item svg {
+  width: 50px;   /* Ajusta el tamaño según tus necesidades */
+  height: 50px;  /* Ajusta el tamaño según tus necesidades */
+  fill: currentColor;
+}
